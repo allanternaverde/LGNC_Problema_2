@@ -28,6 +28,11 @@ nOrbits = 4;
 rotacao = 1;
 plotTracadoSolo(a,e,I,Omega,omega,mu,nOrbits,rotacao)
 
+%% plot do tracado de solo sem rotacao da Terra
+nOrbits = 1; 
+rotacao = 0;
+plotTracadoSolo(a,e,I,Omega,omega,mu,nOrbits,rotacao)
+
 %% TLE elements
 TLE = tle(a,e,I,Omega,omega,upsilon,mu);
 disp('Two Line Elements:')
