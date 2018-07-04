@@ -32,9 +32,3 @@ plotTracadoSolo(a,e,I,Omega,omega,mu,nOrbits,rotacao)
 TLE = tle(a,e,I,Omega,omega,upsilon,mu);
 disp('Two Line Elements:')
 disp(TLE);
-
-%% plot da orbita com animação
-nVezes = 10;
-plotOrbitaAnimado(a,e,I,Omega,omega,mu,nVezes)
-
-
